@@ -15,3 +15,10 @@ python -V
 コマンドプロンプトで環境に入り以下を実行
 pip freeze > requirements.txt
 カレントディレクトリにrequirements.txtが生成される。こちらに内容が記載されている。
+
+
+## ソースコードの紹介
+・export_env.py
+　pythonのversionとライブラリをテキストファイルで出力するコード
+・restore_env.py
+　export_env.pyで出力されたデータを読み取りライブラリのインストールを実施するコード
